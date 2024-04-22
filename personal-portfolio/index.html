@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Karol Loskot Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b205c3cbb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = "personal-portfolio-img/images/logo.png" class="logo">
+                <ul>
+                    <li><a href ="#">Home</a></li>
+                    <li><a href ="#">Projects</a></li>
+                    <li><a href ="#">Services</a></li>
+                    <li><a href ="#">Portfolio</a></li>
+                    <li><a href ="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <br>
+                <p>Software Developer</p>
+                <h1><mark>Ready to take on <br> the world through <br> computer science and <br> technology</mark></h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="image_display active-img" id="me_img" src="personal-portfolio-img/images/uni-pic.jpg">
+                    <img class="image_display" id="coding_img" src="personal-portfolio-img/images/IMG_5929.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Personal</h1>
+                    <p>Being a diligent learner, I readily seek out
+                        any opportunity that will broaden my set
+                        of skills. I accept any challenge with open
+                        arms and tackle it utilizing both strong
+                        individual skills and teamwork. I approach
+                        any problem with both logic and creativity.
+                        Having the amazing opportunity to attend the University of Nottingham has allowed to explore multiple areas of computer science from VR game development to robotics,
+                        and develop many amazing projects in a group, paired and individual setting. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('me','me_img','about')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('coding', 'coding_img', 'about')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="me">
+                            <ul>
+                                <li><span>Sports & Basketball</span><br> A massive promoter of sports and mindfulness which I have heavily incorporate in my life through different sports, gym, yoga, meditation and most passionately basketball. It would be a dream come true to incorporate this passion with my profession which has inspired me to work on an independent project that aids
+                                    in building and connecting the local basketball community.</li>
+                                <li><span>Music</span><br>Music has taught me that with enough practice and patience you can become proficient in anything you set your mind on. I've been playing clarinet for around 3 years now on and off however every time I pick it up I find myself enjoying it and can never seem to fully let go of it. This passion has given me the privilege to play alongside my borough orchestra during my earlier days of playing the clarinet. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="coding">
+                            <ul>
+                                <li><span>University of Nottingham 2020-2023</span><br>BSc (Hons) Computer science: 2:1</li>
+                                <li><span>William Perkin CofE Sixth Form 2018-2020</span><br>Computer Science A-level: A <br> Physics A-level: B <br> Maths A-level: B</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------Languages & Sepeciality ------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Languages & Specialities</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p><span>Libraries:</span> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras <br> <br> <span> Application: </span> Data science, Machine learning, Robotics
+                </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <p><span>Libraries:</span> Swing, JavaFX, SWT, TKinter <br> <br> <span>Application:</span> OOP, Game development, GUI development, Artificial Intelligence</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-r-project"></i>
+                <h2>R</h2>
+                <p><span>Libraries:</span> Dplyr, ggplot2, tidyr, tidyverse, plotly <br> <br> <span>Application:</span> Data analysis, Data Visulisation</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-unity"></i>
+                <h2>Unity</h2>
+                <p><span>Libraries:</span> Unity 3D, Unity VR, Asset Store, Unity Collab</p> <br> <br> <span>Application:</span> 3D Game developemnt, VR game development, Mixed Reality experience building, Game Testing, C# scripting
+                <br><a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Science</h2>
+                <p><span>Languages:</span> Python, Java, R <br> <br> <span>Concepts:</span> Data pre-processing, analysis and evaluation, machine learning, artificial intelligence, data visulisation with interaction</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-vr-cardboard"></i>
+                <h2>Mixed Reality</h2>
+                <p><span>Languages:</span> Unity, C# <br> <br> <span>Concepts:</span> Ideation, locative media, augmented reality, virtual reality, experience design and prototyping</p>
+                <a href="#"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Robotics</h2>
+                <p><span>Languages:</span> Python, Robotics Operating System</p> <br> <br> <span>Concepts:</span> Automation, Lidar/Sonar object detection, localisation, mapping, computer vision, navigation
+                <br><a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web development</h2>
+                <p><span>Languages:</span> HTML, CSS, PHP, JavaScript, MySQL <br> <br> <span>Concepts:</span> Backend, Frontend, Fullstack, Dynamic Web Development</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Development</h2>
+                <p><span>Concepts:</span> Object orientated programming, design patterns, agile and waterfall development, project methedologies, test-driven development, requirement analysis, Version control(Git), CI/CD, Algorithm and Data structures, SDLC</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------Projects--------------- -->
+<div id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="image_display active-img" id="data_img" src="personal-portfolio-img/images/data-sci.png">
+                <img class="image_display " id="vr_img" src="personal-portfolio-img/images/project_room.png">
+                <img class="image_display " id="oop_img" src="personal-portfolio-img/images/oop-img.PNG">
+                <img class="image_display" id="robotics_img" src="personal-portfolio-img/images/robot-img.JPG">
+                <img class="image_display" id="cyber_img" src="personal-portfolio-img/images/cyber-img.png" >
+                <img class="image_display" id="imperial_img" src="personal-portfolio-img/images/imperial.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Projects</h1>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('data','data_img','projects')">Data Science & AI</p>
+                        <p class="tab-links" onclick="opentab('vr','vr_img','projects')">Unity & VR</p>
+                        <p class="tab-links" onclick="opentab('oop','oop_img','projects')">OOP</p>
+                        <p class="tab-links" onclick="opentab('robotics','robotics_img','projects')">Robotics</p>
+                        <p class="tab-links" onclick="opentab('cyber','cyber_img','projects')">Cyber Security & Ethics</p>
+                        <p class="tab-links" onclick="opentab('imperial','imperial_img','projects')">Imperial College Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="data">
+                        <ul>
+                            <li><span>Benign/malignant tumor diagnosis through machine learning in Python (2023)</span><br>A group project with the objective of building a machine learning model capable of diagnosing malignant or benign breast cancer tumors using and trained by medical images. This project used many industry standard libraries such as Keres, TensorFlow, Pandas and SciKit learn and built using Python. </li>
+                            <li><span>Explorative data analysis and visulisation of Starbucks food and drink menu (2023) </span><br>An individual project which explored the nutritional breakdown of starbucks menu through interactive and informative data visulisations developed in R.</li>
+                            <li><span>Memetic Algorithm for solving the knapsack problem (2022)</span><br>Independant project where I developed a multi-memetic AI algorithm tasked at solving the knapsack problem, built using Java and an API developed by the University of Nottingham which implemented approaches such as Davis Bit Hill climbing and stohastic gradient decent.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="vr">
+                        <ul>
+                            <li><span>VR Ice Skating mixed reality experience (2023)</span><br>A realistic mixed/virtual reality experience designed using a ROVR treadmill for omnidirectional movment, sensor fans for imitation of wind resistance and live sounds
+                            and a working prototype developed in Unity VR for a Oculus Quest 2 headset</li>
+                            <li><span>Online multiplayer puzzle game built using test-driven development (2023)</span><br>A group project with the focus of familiarising ourselves with industry standards of software development. We developed a 3D online escape-room type game using Unity whilst following ISO 9000 standards, test-driven development, industry project developemnt methedologies and automation testing.</li>
+                            <li><span>VR educational game about the UK legal system (2022)</span><br>A year long group project with the objective of educating the user about how the UK legal system works. The user would be punished accordingly to the crime they choose to or choose not to commit. This project was developed in Unity VR and for the Occulus quest 2 headset. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="oop">
+                        <ul>
+                            <li><span>Improvment of code and UI and addition of functionality to game Breakout(2022)</span><br>Following industry coding conventions, I fixed and improved the readabiliaty and extendability of the code through the use of code design patterns; better organised the class hierarchy; improved user interface using Java Swing and Java Fx; implemented main menu, scoreboard and extra mechanics to the game. This was done in Java.</li>
+                            <li><span>Recreation of the game Othello (2021)</span><br>Developed in Java, the UI was developed using Java Swing and Java FX and the logic was also written in Java. This project also focused on the use of UML to explain design decisons and XML.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="robotics">
+                        <ul>
+                            <li><span>Comparison of differnt algorithms and hyperparameters of a robot vaccume cleaner through simulation (2023)</span><br> A simulation of a robot vaccum cleaner tasked with collecting dirt in a room. The intelligent agent and enviroment was visulised using the tkinter library. The focus was to compare two features, first being the hyperparameters of the lidar the robot used to avoid obsticals, the other being the pathfinding algorithm used such as A* and Dijkstra. This project was developed in Java. </li>
+                            <li><span>Autonomous Robot using ROS melodic (2023)</span><br>Fully autonomous robot vacume cleaner capable of navigation and localisation using SLAM, object detection using computer vision, and collision avoidance using lidar developed for a ROS waffle bot. The project was tested both physically and virtually using an enviroment designed in Gazebo.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="cyber">
+                        <ul>
+                            <li><span>Penetration testing of server with weak security and fixing its flaws (2023)</span><br>Using software such as metasploit and nmap, this project focused on familiarising yourself with such software and identifying the security flaws of a database. Furthermore it included tasks such as creating strong and robust password policies and imlementing changes to the database to make it more secure.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="imperial">
+                        <ul>
+                            <li><span>Imperial Maker Challenge (2019)</span><br>A 12 week course & project taught at imperial college which taught me skills such as: Use woodwork heavy tools such as Band saw and Drill press, use of laser cutter, programming and use of CAD, use of 3D printer, differnt approaches to product design and idea generation, soldering and how to use a breadboard to build circuits, use of Arduino. For my product I desgined and created a works-like and looks-like prototype of a health monitoring dog collar inspired by FitBit which would record and display roughly the amount of callories the dog has burnt and the amount of steps it took through the use of an accelerometer and gyroscope.</li>
+                            <li><span>Imperial Gold Crest Award (2019)</span><br>A group reaserch project on a randomly assigned field which later was presented at Imperial collage. Me and my team where assigned the field of biomechanics from which we wrote the paper titled: "The biomechanics of Computer gaming". To conduct our research we had frequent meeting with our mentor who was a PHD student of biomechanics and used observation through labeling and recording the movment of differnt hand joins affected by the ergonomics of the mouse as well as the style of grip.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                img
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------Tab script-------------------------- -->
+<script>
+    function opentab(tabname,img,id){
+        var specified_id = document.getElementById(id);
+        var tablinks = specified_id.getElementsByClassName("tab-links");
+        var tabcontents = specified_id.getElementsByClassName("tab-contents");
+        var tabimg = specified_id.getElementsByClassName("image_display");
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        for(image_dis of tabimg){
+            image_dis.classList.remove("active-img");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(img).classList.add("active-img");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
