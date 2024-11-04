@@ -241,10 +241,10 @@
                 <h1 class="sub-title">Contact me</h1>
                 <p><i class="fa-solid fa-envelope"></i></i>karloskot23@gmail.com</p>
                 <p><i class="fa-solid fa-square-phone"></i>07825459165</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/karol-loskot-b27b33245/"><i class="fa-brands fa-linkedin"></i></a>
+                <div class="button-container">
+                    <a href="https://www.linkedin.com/in/karol-loskot-b27b33245/" class = "btn btn2">See LinkedIn</a>
+                    <a href="personal-portfolio-img/Karol_Loskot_CV.docx" download="" class="btn btn2">Download CV</a>
                 </div>
-                <a href="personal-portfolio-img/Karol_Loskot_CV.docx" download="" class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form name='submit-to-google-sheet'>
@@ -257,19 +257,7 @@
         </div>
     </div>
 </div>
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxaCehceGkCo1Vutp7V7iZGyuOT_I81zZYCq9hqjdqC6mmowmrH_YG2xLdoo8aDKlNO/exec'
-    const form = document.forms['submit-to-google-sheet']
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
-</script>
-
+<script type="text/javascript" src="contact_form.js"></script>
 
 </body>
 </html>
