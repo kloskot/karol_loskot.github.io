@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #080808;
+    background: #2A2A2A;
     color: #fff;
 }
 html{
@@ -15,7 +15,7 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(personal-portfolio-img/uni-pic.jpg);
+    background-image: url(personal-portfolio-img/me.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -52,7 +52,7 @@ nav ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background: #ff004f;
+    background: #1E2A47;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -66,7 +66,11 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 1%;
     font-size: 30px;
-    color: #ff004f;
+    color: #FFFFFF;
+}
+
+.header-text p{
+    color: #1E2A47;
 }
 
 .header-text h1{
@@ -143,7 +147,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background:  #ff004f;
+    background:  #6A7F99;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -164,7 +168,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #b54769;
+    color: #6A7F99;
     font-size: 14px;
 }
 
@@ -197,7 +201,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div{
-    background: #262626;
+    background: #1E2A47;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -216,9 +220,8 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 
-.services-list div:hover{
-    background: #ff004f;
-    transform: translateY(10px);
+.services-list div p{
+    color: #D1D1D1;
 }
 
 .services-list div span{
@@ -228,6 +231,24 @@ nav ul li a:hover::after{
 .services-list div a{
     color: wheat;
 }
+
+
+.services-list div:hover{
+    background: #F0F0F0;
+    transform: translateY(10px);
+}
+
+.services-list div:hover i ,
+.services-list div:hover h2,
+.services-list div:hover p{
+    color: #262626;
+}
+
+.services-list div:hover span ,
+.services-list div:hover a{
+    color: #8B4513;
+}
+
 
 /* ---------------portfolio---------- */
 
@@ -258,7 +279,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #1E2A47);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -281,7 +302,7 @@ nav ul li a:hover::after{
 
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #00FFFF;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -304,7 +325,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #1E2A47;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -313,7 +334,7 @@ nav ul li a:hover::after{
 }
 
 .btn:hover{
-    background: #ff004f;
+    background: #6A7F99;
 }
 
 .contact-left{
@@ -328,13 +349,14 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i{
-    color: #ff004f;
+    color: #6A7F99;
     margin-right: 15px;
     font-size: 25px;
 }
 
-.btn2:hover{
+.btn.btn2:hover{
     transform: scale(1.1) translateY(-5px);
+    background-color: #6A7F99;
 }
 
 .button-container{
@@ -355,13 +377,12 @@ nav ul li a:hover::after{
 
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #1E2A47;
     transition: transform 0.5s;
 }
 
 .contact-right form{
     width: 100%;
-
 }
 
 form input, form textarea{
