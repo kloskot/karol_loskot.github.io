@@ -15,7 +15,7 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(personal-portfolio-img/me.jpg);
+    background-image: url(personal-portfolio-img/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -32,8 +32,12 @@ nav{
 }
 
 .logo{
-    width: 120px;
+    width: 200px;
+    background-color: rgba(106, 127, 153, 0.397);
+    border-radius: 70%;
 }
+
+
 
 nav ul li{
     display: inline-block;
@@ -66,23 +70,23 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 1%;
     font-size: 30px;
-    color: #FFFFFF;
+    color: #ababab;
 }
 
 .header-text p{
-    color: #1E2A47;
+    color: #6A7F99;
 }
 
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    color: #ababab;
 }
 
-.header-text h1 mark{
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 0%;
-    color: white;
+.header-text span{
+    color: #6A7F99;
 }
+
 
 /*--------------Projects---------------*/
 
